@@ -1,0 +1,21 @@
+{
+  "name": "spider1",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "crawler": "node crawler.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "crawler": "^1.1.1",
+    "eslint": "^4.12.1",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

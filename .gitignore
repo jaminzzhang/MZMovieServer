@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+npm-debug.*
+
+
+.DS_Store
+/android/build
+/android/RCTWeChat.iml
+
+# ios
+ios/build
+
+//User Define
+output
