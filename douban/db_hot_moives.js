@@ -1,12 +1,12 @@
 
 var Crawler = require('crawler')
 var DoubanMovieDetailCrawler = require('./db_movie_detail')
-var MovieInfo = require('../bean/MovieInfo')
+var MovieInfo = require('../bean/movie_info')
 
 class DoubanMoviesCrawler {
   constructor () {
     this.hotMoivesCrawler = new Crawler({
-      maxConnection: 10,
+      rateLimit: 1000,
       callback: (error, res, done) => {
         if (error) {
           console.log(error)

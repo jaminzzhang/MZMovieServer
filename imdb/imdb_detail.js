@@ -1,5 +1,5 @@
 var Crawler = require('crawler')
-var MovieInfo = require('../bean/MovieInfo')
+var MovieInfo = require('../bean/movie_info')
 
 class IMDBMovieDetailCrawler {
   constructor (detailCallback) {
